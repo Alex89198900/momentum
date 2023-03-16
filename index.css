@@ -1,0 +1,271 @@
+.audio-track {
+    width: 150px;
+    height: 3px;
+    background-color: #dddddd;
+    margin: 20px 0
+  }
+  
+  .time {
+    width: 0;
+    height: 3px;
+    background-color: #474747
+  }
+  
+  
+  body{
+    margin: 0 auto;
+  }
+  
+  .fgh{
+    background-color: #474747;
+    color: #474747;
+  }
+  
+  audio{
+    display: block;
+  }
+  
+  
+  
+  
+  .progres{
+    background-color: #474747;
+    border-radius: 6px;
+    height: 6px;
+    width: 0px;
+  }
+  
+  
+  .progres__container{
+    background-color: aqua;
+    width: 300px;
+  }
+  .progres__container1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    width: 300px;
+  }
+  .progres1{
+    background-color: #474747;
+    border-radius: 6px;
+    height: 6px;
+    width: 0px;
+  }
+  
+  
+  .sours{
+    margin: 0px 0px 0px 0px;
+    background-color: aqua;
+    height: 100px;
+  }
+  
+  
+  .taskd{
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: flex-start;
+  }
+  
+  .play{
+    
+  }
+  
+  .btn__play1.btnplayactive{
+    display: block;
+    width: 30px;
+  }
+  
+  .btn__play{
+    width: 30px;
+  }
+  .btn__play2{
+    width: 30px;
+  }
+  
+  .btn__play1{
+    display: none;
+    width: 30px;
+  }
+
+
+  .btn__play3{
+    width: 24px;
+    border-radius: 50%;
+  }
+
+
+
+  .hour1{
+    font-size: 110px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    box-shadow:50px;
+    
+  }
+  .minute{
+    font-size: 110px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    box-shadow:50px;
+
+  }
+  .secund{
+    font-size: 110px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    box-shadow:50px;
+  }
+  .hour{
+    text-align: center;
+  }
+  .ty{
+    font-size: 70px;
+    background-color: #cae8db;
+  }
+  .ghj{
+    font-size: 70px;
+  }
+
+  .date__now{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .title1{
+    font-size: 50px;
+  }
+
+  .unite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .name{
+    
+    width: 235px;
+   color: white;
+   background-color: gray;
+   height: 44px;
+   font-size: 50px;
+   
+  }
+
+  #image{
+    color: white;
+    padding: 15px 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+  }
+
+
+  .list{
+   list-style: none;
+    margin: 4% 70% 0% 0%;
+    
+  }
+
+
+
+  .todo_list{
+    margin: 0% 0% 0% 0%;
+  }
+  
+  .taskd1{
+    font-size: 20px;
+    
+  }
+
+
+  .taskEl{
+    margin: 0% 81% 0% 0%;
+  }
+
+  .play-weather{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  #quotation{
+   text-align: center;
+   font-size: 22px;
+  }
+
+  #source{
+    text-align: center;
+    font-size: 22px;
+  }
+
+
+  .weather__icon1{
+    width: 91px;
+  }
+
+
+  .weather__temp{
+    font-size: 20px;
+  }
+
+ .weather__feels-like{
+  font-size: 20px;
+}
+
+.weather__city{
+  font-size: 20px;
+}
+
+.weather__status{
+  font-size: 20px;
+}
+
+
+@media (max-width: 888px) {
+  .hour1 {
+    font-size: 80px
+  }
+  .minute {
+    font-size: 80px;
+  }
+  .secund {
+    font-size: 80px;
+  }
+  #quotation {
+    text-align: center;
+    font-size: 16px;
+}
+#source {
+  text-align: center;
+  font-size: 16px;
+}
+.name {
+  width: 135px;
+  color: white;
+  background-color: gray;
+  height: 44px;
+  font-size: 42px;
+}
+}
+
+
+@media (max-width: 515px) {
+  .title1 {
+    font-size: 27px;
+}
+.progres__container {
+  background-color: aqua;
+  width: 170px;
+}
+#quotation {
+  margin-top: 127px;
+  
+}
+#source {
+  margin-bottom: 100px;
+  
+}
+}

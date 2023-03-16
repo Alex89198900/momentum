@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Document</title>
+</head>
+<body id = "image">
+    <header class="play-weather">
+        <div class="player">
+            <div class="title">Now playing</div>
+            <div class="song"></div>
+            <audio class="audio" src="sound/09. Кантата № 147 «И сердце, и уста, и творение, и жизнь...» BWV 147.mp3" >
+              
+            </audio>
+            <div class="progres__container">
+              <div class="progres"></div>
+            </div>
+          
+            <input id="range" min="0" max="100" value="50" type="range">
+          
+            <div class="buttons">
+              <button class="prev1"><img src="images/534-5346011_last-track-left-arrow-app-back-icon-png.png" alt="play" class="btn__play3"></button>
+              <button class="play"><img src="images/play-icon-png-3.png" alt="play" class="btn__play2"><img src="images/Pause-PNG-Picture.png" alt="play" class="btn__play1"></button>
+              <button class="next1"><img src="images/Vector-Forward-Button-PNG-Picture.png" alt="" class="btn__play"></button>
+            </div>
+            <div class="list"></div>
+          </div>
+          <div class="weather">
+       
+          </div>
+          
+          
+    
+    </header>
+    <section class="text__momentum">
+        <div class="hour">
+            <span class="hour1"><span class=""></span> </span><span class="minute"></span><span class="secund"></span>
+         </div>
+         
+         <div class="date__now"></div>
+         <div class="unite">
+           <h1 class="title1"></h1>
+         <input type="text" class="name" >
+        </div>
+        <div class="todo_list">
+          <h2>ToDo list</h2>
+         <form class="form">
+             <input type="text" class="message" placeholder="Описание">
+             <button class="add">Добавить</button>
+         </form>
+         <div class="taskEl">
+        </div>
+        </div>
+  </section>
+<footer>
+  <blockquote>
+    <p id="quotation"></p>
+    <footer>
+        <p id="source"></p>
+    </footer>
+</blockquote>
+</footer>
+      
+   
+ <script src="index.js"></script>
+ <script src="play.js"></script> 
+ <script src="index2.js"></script>
+ <script src="index3.js"></script> 
+ <script src="index4.js"></script>    
+</body>
+</html>
